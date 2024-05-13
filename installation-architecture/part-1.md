@@ -33,3 +33,9 @@ in this architecture we find:
 
 ![Integrated extract arch](integrated-exract.png)  
   
+## Installing OGG:
+1. Note down the source/target database, version and platform.
+2. Check the certification matrix [Oracle Fusion Middleware Supported System Configurations](https://www.oracle.com/middleware/technologies/fusion-certification.html)
+> OGG is a fusion middleware product
+3. Decide where to install and make sure the space is enough.
+4. Analyze how much space does the log files generated per day take * the retention period that you need and add about 50% or more to that for future proofing.
